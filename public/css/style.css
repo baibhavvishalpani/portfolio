@@ -511,18 +511,18 @@ header .navbar ul li a:hover{
     animation: bootstrap 3s;
 }
 
-.php{
-    width:25%;
-    animation: php 3s;
+.git{
+    width:45%;
+    animation: git 3s;
 }
 
 .mysql{
-    width:60%;
+    width:45%;
     animation: mysql 3s;
 }
 
 .c1{
-    width:80%;
+    width:75%;
     animation: c1 3s;
 }
 
@@ -564,7 +564,7 @@ header .navbar ul li a:hover{
         width:0%;
     }
     100%{
-        width:80%
+        width:75%
     }
 }
 
@@ -573,7 +573,7 @@ header .navbar ul li a:hover{
         width:0%;
     }
     100%{
-        width:60%
+        width:45%
     }
 }
 
@@ -586,12 +586,36 @@ header .navbar ul li a:hover{
     }
 }
 
-@keyframes php{
+@keyframes git{
     0%{
         width:0%;
     }
     100%{
-        width:25%
+        width:45%
     }
 }
 
+.tooltip {
+    position: relative;
+    border-bottom: 1px dotted black;
+  }
+  
+  .tooltiptext {
+    visibility: hidden;
+    background-color: var(--yellow);
+    width: 50px;
+    right: 0;
+    top: 10px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
