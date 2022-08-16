@@ -520,6 +520,10 @@ header .navbar ul li a:hover{
     width:45%;
     animation: mysql 3s;
 }
+.azure{
+    width:65%;
+    animation: mysql 3s;
+}
 
 .c1{
     width:75%;
@@ -592,6 +596,14 @@ header .navbar ul li a:hover{
     }
     100%{
         width:45%
+    }
+}
+@keyframes azure{
+    0%{
+        width:0%;
+    }
+    100%{
+        width:65%
     }
 }
 
