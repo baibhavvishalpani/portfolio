@@ -497,9 +497,9 @@ header .navbar ul li a:hover{
     width:70%;
     animation: css 3s;
 }
-.javascript{
-    width:30%;
-    animation: javascript 3s;
+.python {
+    width:50%;
+    animation: python 3s;
 }
 .c{
     width:80%;
@@ -546,12 +546,12 @@ header .navbar ul li a:hover{
         width:70%
     }
 }
-@keyframes javascript{
+@keyframes python{
     0%{
         width:0%;
     }
     100%{
-        width:30%
+        width:50%
     }
 }
 @keyframes c{
