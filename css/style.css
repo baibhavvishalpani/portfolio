@@ -489,6 +489,7 @@ header .navbar ul li a:hover{
     float:left;
     background: linear-gradient(135deg,rgba(249,202,36)0%,rgba(252,103,103,1)100%);
 }
+
 .html{
     width:90%;
     animation: html 3s;
@@ -529,6 +530,7 @@ header .navbar ul li a:hover{
     width:75%;
     animation: c1 3s;
 }
+
 
 @keyframes html{
     0%{
